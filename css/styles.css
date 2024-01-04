@@ -90,6 +90,7 @@ letter-spacing: 0.02;
   color: var(--background-color-section);
   padding-top: 24px; 
   padding-bottom: 24px;
+  display: inline-block;
   
   
 }
@@ -109,6 +110,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
+  display: inline-block;
+ 
 }
 
 .contact-list:hover, .contact-list:focus {
@@ -199,6 +202,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
+  font-weight: 400;
  
 }
 
@@ -364,6 +368,7 @@ img {
 
 .header-pages {
 display: flex;
+justify-content: space-between;
 }
 
 .container {
@@ -391,6 +396,7 @@ display: flex;
 
 .portfolio-box {
   display: flex;
+  justify-content: space-between;
 }
 
 .portfolio-section {
